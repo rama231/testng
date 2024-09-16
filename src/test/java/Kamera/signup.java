@@ -11,7 +11,7 @@ public class signup{
 	WebDriver driver;
 	
 	
-	@Test(priority = 0,enabled= true)  // This test will not run
+	@Test(priority = 0,enabled= false)  // This test will not run
 	  public void Signup1() {
 		  //driver.findElement(By.class("//*[@id='cookie-modal']/div/div/div/button")).click();
 

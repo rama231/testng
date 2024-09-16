@@ -27,7 +27,6 @@ public class Pro07 {
 
   @AfterMethod
   public void afterMethod() {
-	  public void afterMethod();
 	  driver.close();
   }
 

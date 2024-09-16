@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Kamera.Transfer_fund">
+      <class name="Kamera.signup">
         <methods>
-          <include name="testw"/>
-          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="open_acount"/>
+          <include name="afterMethod"/>
+          <include name="tranfer_fund"/>
         </methods>
-      </class> <!-- Kamera.Transfer_fund -->
+      </class> <!-- Kamera.signup -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
